@@ -9,7 +9,6 @@ html {
 }
 
 body {
-    width: 1440px;
     font-family: Raleway, Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
@@ -19,8 +18,7 @@ body {
 .header {
     margin: 92px 49px 90px 51px;
     display: grid;
-    grid-template-columns: 4fr 1fr 4fr;
-    width: 1340px;
+    grid-template-columns: 4fr 3fr 1fr;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -36,7 +34,6 @@ body {
     display: flex;
     gap: 1.8px;
     list-style: none;
-    
 }
 
 .link {
@@ -46,8 +43,6 @@ body {
 
 .link_active {
     border-bottom: 1px solid #000;
-    
-    
 }
 
 .header_li_divider {
@@ -68,10 +63,12 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 24.3px;
+    white-space: nowrap;
 }
 
 .header_address {
-    margin: 5px 0px 7px 355px;
+    margin-top: 5px;
+    margin-bottom: 7px;
 }
 
 .cover {
@@ -187,11 +184,13 @@ body {
     justify-content: space-between;
     list-style: none;
     gap: 25px;
+    flex-wrap: wrap;
+    flex-grow: 1;
 }
 
 .card {
     width: 430px;
-    height: 450px;
+    min-height: 450px;
     position: relative;
     z-index: -2;
     color: #FFF;
