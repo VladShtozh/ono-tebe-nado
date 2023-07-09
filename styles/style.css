@@ -99,7 +99,7 @@ body {
     line-height: 115%;
     letter-spacing: 30px;
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
 }
 
 .extended_spacing {
@@ -184,12 +184,17 @@ body {
     list-style: none;
     gap: 25px;
     flex-wrap: wrap;
+}
+
+.lots__card-list-item {
+    width: 430px;
+    min-height: 450px;
     flex-grow: 1;
 }
 
 .card {
-    width: 430px;
-    min-height: 100%;
+    width: 100%;
+    height: 100%;
     position: relative;
     z-index: -2;
     color: #FFF;
