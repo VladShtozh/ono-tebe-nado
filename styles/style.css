@@ -254,19 +254,17 @@ body {
 
 .about {
     padding: 0 50px 180px;
-    
+    display: flex;
 }
 
 .about_column {
-    display: grid;
-    grid-template-columns: 430px 1fr;
+    min-width: 33%;
 }
 
 .about_logo {
     background: #000;
     width: 240px;
     height: 240px;
-    flex-shrink: 0;
     display: flex;
     border-radius: 50%;
     margin: 0 auto;
@@ -286,6 +284,7 @@ body {
     padding-top: 100px;
     margin-bottom: 100px;
     padding-left: 25px;
+    
 }
 
 .about_plot {
