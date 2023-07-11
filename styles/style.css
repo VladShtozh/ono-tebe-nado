@@ -73,7 +73,7 @@ body {
 }
 
 .cover {
-    background: url(/images/cover.jpg) lightgray 50% center / cover no-repeat;
+    background: url(../images/cover.jpg) lightgray 50% center / cover no-repeat;
     color: #FFF;
     text-transform: uppercase;
     padding: 165px 50px 50px 50px;
@@ -210,15 +210,15 @@ body {
 }
 
 .card_type_film {
-    background: url(/images/card-lot-01.jpg) lightgray 50% center / cover no-repeat;
+    background: url(../images/card-lot-01.jpg) lightgray 50% center / cover no-repeat;
 }
 
 .card_type_book {
-    background: url(/images/card-lot-02.jpg) lightgray 50% center / cover no-repeat;
+    background: url(../images/card-lot-02.jpg) lightgray 50% center / cover no-repeat;
 }
 
 .card_type_picture {
-    background: url(/images/card-lot-03.jpg) lightgray 50% center / cover no-repeat;
+    background: url(../images/card-lot-03.jpg) lightgray 50% center / cover no-repeat;
 }
 
 .card-link {
